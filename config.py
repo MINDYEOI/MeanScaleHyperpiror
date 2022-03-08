@@ -4,17 +4,17 @@ class Config():
     def __init__(self):
         # Directory
         self.root_dir = Path(os.getcwd())
-        self.save_dir = self.root_dir / Path('data')
+        self.save_dir = self.root_dir / Path('save')
         self.result_dir = self.root_dir / Path('result')
         self.log_dir = self. root_dir / Path('log')
         self.dataset = self. root_dir / Path('data')
 
         # pretrain
-        self.pre_train = False
-        self.save_model_dir = self.root_dir / Path('save/model.pkl')    # model name
+        self.pre_train = True
+        self.save_model_dir = self.root_dir / Path('save/1646724853_300000.pkl')    # model name
 
         # training condition
-        self.batch_size = 8
+        self.batch_size = 4
         self.epochs = 5000      # infinite
         self.log_step = 250     # logging each 250 steps
         self.total_global_step = 1400000    # total step

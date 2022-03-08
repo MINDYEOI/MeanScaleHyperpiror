@@ -1,0 +1,6 @@
+log/
+data/train/*.jpg
+data/val/*.jpg
+data/test/*.png
+result/
+save/
