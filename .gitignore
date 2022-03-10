@@ -4,4 +4,4 @@ data/val/*.jpg
 data/test/*.png
 result/
 save/
-__pychace__/
+__pycache__/
